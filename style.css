@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline-color: #000;
+    font-size: 13pt;
+    width: 100%;
+}
+form{
+    width: 330px;
+    background-color: rgb(0, 0,0,.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+#esquerda{
+    width: 35%;
+    height: 500px;
+    float: left
+}
+#direita{
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+table{
+    background-color: rgb(0, 0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+}
+tr{
+    line-height: 30px;
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+}
+td{
+    padding: 0px 6px;
+}
+a{
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.aviso{
+    width: 90%;
+    height: 50px;
+    margin: 30px auto 0px;
+}
+img{
+    width: 38px;
+    display: block;
+    float: left;
+}
+h4{
+    float: left;
+    line-height:38px;
+    margin-left:10px;
+}
